@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            realMVP
+        </title>
+    </head>
+    <body>
+        <h1>
+            Season <%= season %>
+        </h1>
+        <% players.forEach(function(player) { %>
+            <p>
+                <strong><%= player.place %></strong>
+                <strong><%= player.name %>:</strong>
+                <br>
+                Wins: <%= player.wins %> ---
+                PPG: <%= player.ppg %> ---
+                PER: <%= player.per %> ---
+                WS/48: <%= player.ws48 %> ---
+                VORP: <%= player.vorp %>
+            </p>
+
+        <% }); %>
+
+        <br><br><br>
+
+        <b>
+            <a href="../season">Back</a>
+        </b>
+
+        <b>
+            <a href="../">Index</a>
+        </b>
+
+
+    </body>
+</html>

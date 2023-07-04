@@ -1,0 +1,11 @@
+.robotic-font {
+  font-family: 'Your Robotic Font', sans-serif;
+}
+
+.description-box {
+  width: 100%;
+  background-color: #cdcdcd;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 16px;
+}
